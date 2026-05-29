@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "authz-engine"
+version = "0.1.0"
+description = "Deterministic authorization engine with RBAC + ABAC and auditable decisions"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "infotechLLC" }]
+
+[tool.setuptools.packages.find]
+include = ["authz_engine*"]
